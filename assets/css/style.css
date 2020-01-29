@@ -1,0 +1,133 @@
+* {
+    color: green;
+}
+
+/*nav*/
+.navbar-brand img {
+    width: 110px;
+}
+
+/*hero*/
+.hero {
+    text-align: center;
+    color: green;
+}
+
+.hero .lead {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/*reviews carousel*/
+#carousel {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#reviews {
+    padding: 0px;
+    text-align: center;
+}
+
+#reviews h1,
+#reviews p {
+    color: green;
+    max-width: 850px;
+    margin: 10px auto;
+}
+
+.carousel-caption {
+    background-color: green;
+    border-radius: 5px;
+    max-width: 850px;
+    margin: 10px auto;
+}
+
+.carousel-caption * {
+    color: white;
+}
+
+.carousel-caption a{
+    text-decoration: none;
+}
+
+/*"Schedule" button*/
+.btn-primary {
+    background: green;
+    color: white;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-primary:hover {
+    background: white;
+    color: green;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*schedule pop-up form*/
+.modal-title,
+.modal-body {
+    text-align: left;
+    color: green;
+    background: none;
+}
+
+/*pop-up form "Save Changes" button*/
+.btn-save {
+    background: white;
+    color: green;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-save:hover {
+    background: green;
+    color: white;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*pop-up form "Close" button*/
+.btn-secondary {
+    background: white;
+    color: green;
+    border-color: green;
+}
+
+.btn-secondary:hover {
+    background: lightgray;
+    color: green;
+    border-color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: green;
+}
+
+@media screen and (max-width: 600px) {
+    footer p {
+        float: none;
+        width: 100%;
+    }
+}
