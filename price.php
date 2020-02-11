@@ -24,7 +24,7 @@
 
     <br>
 
-        <table border="1">
+        <table border="1" class="m-auto">
             <tr>
                 <th>Garment</th>
                 <th>Dry Clean</th>
@@ -113,7 +113,7 @@
             </tr>
         </table>
 
-        <p>Total Estimated Cost <b>$</b>
+        <p class="m-auto text-right" style="width:533px">Total Estimated Cost <b>$</b>
             <b id="total"></b>
         </p>
 
